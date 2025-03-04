@@ -1,0 +1,15 @@
+"ModelID","DCC_A","DCC_B","Distribution","AIC","BIC","HQIC","LogLikelihood","Error"
+1,1,1,"mvnorm",NA,NA,NA,NA,"Error in optimize_dcc(data, dcc_order, distribution): DCC fitting failed.
+"
+2,2,1,"mvnorm",NA,NA,NA,NA,"Error in optimize_dcc(data, dcc_order, distribution): DCC fitting failed.
+"
+3,1,2,"mvnorm",3.0650822637517,3.1266538095783,3.06488726591292,-5514.86397965433,NA
+4,2,2,"mvnorm",NA,NA,NA,NA,"Error in optimize_dcc(data, dcc_order, distribution): DCC fitting failed.
+"
+5,1,1,"mvt",NA,NA,NA,NA,"Error in optimize_dcc(data, dcc_order, distribution): DCC fitting failed.
+"
+6,2,1,"mvt",NA,NA,NA,NA,"Error in optimize_dcc(data, dcc_order, distribution): DCC fitting failed.
+"
+7,1,2,"mvt",NA,NA,NA,NA,"Error in optimize_dcc(data, dcc_order, distribution): DCC fitting failed.
+"
+8,2,2,"mvt",2.78895317073448,2.85394535799589,2.78873606185277,-5012.79419220014,NA

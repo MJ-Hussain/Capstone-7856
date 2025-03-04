@@ -1,0 +1,11 @@
+series,garch_type,garch_p,garch_q,arma_p,arma_q,distribution,param_significance,info_criteria,residual_diagnostics,stability,sign_bias,goodness_of_fit,total_score,key_strengths,AIC,BIC,loglikelihood
+1,gjrGARCH,2,1,1,0,sstd,0.25,0.10260640000000001,0.25,0.13204401237513316,0.030795500000000003,0.0380375,0.8034834123751331,"Parameter significance (0.250), Residual diagnostics (0.250), Parameter stability (0.132)",2.41,2.4271,-4354.433
+1,eGARCH,1,1,1,0,sstd,0.25,0.11086240000000001,0.25,0.0495427183361129,0.1,0.0354425,0.795847618336113,"Parameter significance (0.250), Residual diagnostics (0.250), Information criteria (0.111)",2.1537,2.1674,-3892.426
+1,eGARCH,1,1,1,1,sstd,0.25,0.11083520000000001,0.25,0.06425344198531281,0.07596000000000001,0.043305,0.7943536419853129,"Parameter significance (0.250), Residual diagnostics (0.250), Information criteria (0.111)",2.1537,2.1691,-3891.436
+2,gjrGARCH,1,1,1,0,sstd,0.25,0.10569280000000002,0.25,0.14887920822287073,0.1,0.05,0.9045720082228708,"Parameter significance (0.250), Residual diagnostics (0.250), Parameter stability (0.149)",2.3153,2.3289,-4184.926
+2,gjrGARCH,1,1,0,1,sstd,0.25,0.1057072,0.25,0.14623797991168674,0.09755000000000001,0.05,0.8994951799116868,"Parameter significance (0.250), Residual diagnostics (0.250), Parameter stability (0.146)",2.3148,2.3285,-4184.118
+2,gjrGARCH,1,1,1,0,std,0.25,0.1057216,0.25,0.12951999802182496,0.1,0.05,0.885241598021825,"Parameter significance (0.250), Residual diagnostics (0.250), Parameter stability (0.130)",2.3152,2.3272,-4185.809
+3,gjrGARCH,2,2,1,1,sstd,0.25,0.19859952000000003,0.1951643888888889,0.07670257606821689,0.08608,0.05,0.8565464849571058,"Parameter significance (0.250), Information criteria (0.199), Residual diagnostics (0.195)",-0.5915,-0.57097,1083.2
+3,gjrGARCH,2,2,1,0,sstd,0.25,0.19838256,0.16674440838888907,0.06286787450818968,0.1,0.05,0.8279948428970787,"Parameter significance (0.250), Information criteria (0.198), Residual diagnostics (0.167)",-0.58386,-0.56505,1068.375
+3,gjrGARCH,2,1,1,1,sstd,0.25,0.1981704,0.25,0.008047289237973895,0.06554,0.05,0.821757689237974,"Parameter significance (0.250), Residual diagnostics (0.250), Information criteria (0.198)",-0.57723,-0.55842,1056.365
+Unknown,,,,,,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"Parameter significance (0.000), Information criteria (0.000), Residual diagnostics (0.000)",,,
