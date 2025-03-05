@@ -1,0 +1,111 @@
+
+*---------------------------------*
+*          GARCH Model Fit        *
+*---------------------------------*
+
+Conditional Variance Dynamics 	
+-----------------------------------
+GARCH Model	: eGARCH(2,2)
+Mean Model	: ARFIMA(1,0,1)
+Distribution	: norm 
+
+Optimal Parameters
+------------------------------------
+        Estimate  Std. Error   t value Pr(>|t|)
+mu      0.013065    0.010637  1.228304 0.219333
+ar1    -0.129229    0.030053 -4.300060 0.000017
+ma1     0.210722    0.027974  7.532925 0.000000
+omega   0.000044    0.003386  0.013084 0.989561
+alpha1  0.008075    0.022587  0.357503 0.720715
+alpha2  0.044986    0.022435  2.005202 0.044942
+beta1   0.999985    0.019651 50.887753 0.000000
+beta2  -0.025217    0.018321 -1.376377 0.168705
+gamma1  0.297441    0.033195  8.960299 0.000000
+gamma2 -0.068464    0.033803 -2.025378 0.042829
+
+Robust Standard Errors:
+        Estimate  Std. Error   t value Pr(>|t|)
+mu      0.013065    0.009952   1.31290  0.18921
+ar1    -0.129229    0.007545 -17.12731  0.00000
+ma1     0.210722    0.011031  19.10245  0.00000
+omega   0.000044    0.006773   0.00654  0.99478
+alpha1  0.008075    0.030376   0.26583  0.79037
+alpha2  0.044986    0.037326   1.20524  0.22811
+beta1   0.999985    0.001917 521.51045  0.00000
+beta2  -0.025217    0.014008  -1.80013  0.07184
+gamma1  0.297441    0.051723   5.75067  0.00000
+gamma2 -0.068464    0.066681  -1.02674  0.30454
+
+LogLikelihood : -4321.278 
+
+Information Criteria
+------------------------------------
+                   
+Akaike       2.3916
+Bayes        2.4088
+Shibata      2.3916
+Hannan-Quinn 2.3977
+
+Weighted Ljung-Box Test on Standardized Residuals
+------------------------------------
+                        statistic p-value
+Lag[1]                      1.023  0.3119
+Lag[2*(p+q)+(p+q)-1][5]     3.016  0.4617
+Lag[4*(p+q)+(p+q)-1][9]     5.698  0.3091
+d.o.f=2
+H0 : No serial correlation
+
+Weighted Ljung-Box Test on Standardized Squared Residuals
+------------------------------------
+                         statistic p-value
+Lag[1]                      0.5039  0.4778
+Lag[2*(p+q)+(p+q)-1][11]    2.9442  0.8752
+Lag[4*(p+q)+(p+q)-1][19]    4.6097  0.9577
+d.o.f=4
+
+Weighted ARCH LM Tests
+------------------------------------
+            Statistic Shape Scale P-Value
+ARCH Lag[5]     1.099 0.500 2.000  0.2945
+ARCH Lag[7]     1.426 1.473 1.746  0.6419
+ARCH Lag[9]     2.003 2.402 1.619  0.7579
+
+Nyblom stability test
+------------------------------------
+Joint Statistic:  2.7999
+Individual Statistics:              
+mu     0.04645
+ar1    0.18223
+ma1    0.18352
+omega  1.00975
+alpha1 0.16607
+alpha2 0.13285
+beta1  0.08427
+beta2  0.07479
+gamma1 0.20491
+gamma2 0.34080
+
+Asymptotic Critical Values (10% 5% 1%)
+Joint Statistic:     	 2.29 2.54 3.05
+Individual Statistic:	 0.35 0.47 0.75
+
+Sign Bias Test
+------------------------------------
+                   t-value    prob sig
+Sign Bias           1.8748 0.06091   *
+Negative Sign Bias  0.9746 0.32985    
+Positive Sign Bias  1.2165 0.22387    
+Joint Effect        3.6840 0.29766    
+
+
+Adjusted Pearson Goodness-of-Fit Test:
+------------------------------------
+  group statistic p-value(g-1)
+1    20     91.10    2.118e-11
+2    30     91.75    1.950e-08
+3    40    110.85    8.226e-09
+4    50    112.12    7.467e-07
+
+
+Elapsed time : 0.9617081 
+
